@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "git is a system that tracks changes in computers files and work on those files that lets multipul people get files and make changes"
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +18,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "GitHub is a platform that lets you colaborate with other people"
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +37,11 @@
 
 //CODE HERE
 
+let init = {
+    description: "initializes git in your current repository",
+    code:"git init" 
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +49,11 @@
 */
 
 //CODE HERE
+
+let clone = {
+    description: "make a clone from git hub",
+    code: "git clone"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +63,11 @@
 
 //CODE HERE
 
+let status = {
+    description: "checks what stage of the process your on to push your code to git hub",
+    code: "git status"
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +75,11 @@
 */
 
 //CODE HERE
+
+let add = {
+    description: "tells git to track any chenges that have been made",
+    code: "git add ."
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +89,11 @@
 
 //CODE HERE
 
+let commit = {
+    description: "commits all your code",
+    code: "git commit -m"
+}
+
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -75,6 +102,11 @@
 
 //CODE HERE
 
+let addRemote = {
+    description: "adds a git url as the name",
+    code: "git remote add origin"
+}
+
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +114,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: "push your code to git hub (saves your code in git hub)",
+    code: "git push"
+}
